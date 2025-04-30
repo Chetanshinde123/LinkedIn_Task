@@ -40,7 +40,10 @@ export default function ProductsPage() {
             const data = await fetchProducts();
             setProducts(data);
             setFilteredProducts(data);
-            const uniqueCategories = ["All", ...Array.from(new Set(data.map(p => p.category)))];
+            const uniqueCategories: string[] = [
+                "All",
+                ...Array.from(new Set((data as Product[]).map((p: Product) => p.category))),
+            ];
             setCategories(uniqueCategories);
             setLoading(false);
         }
