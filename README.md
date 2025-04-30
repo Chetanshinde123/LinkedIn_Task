@@ -1,9 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 
 ## Getting Started
 
-First, run the development server:
 
+First, Install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 ```bash
 npm run dev
 # or
@@ -13,12 +25,43 @@ pnpm dev
 # or
 bun dev
 ```
+# 🛍️ MyStore
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A responsive and feature-rich product listing web application built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and integrated with the [FakeStore API](https://fakestoreapi.com/). It includes search, filter by category, sort by price, pagination, and detailed product view with a modern UI.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Demo
+Check out the live version here:
+🔗 https://linked-in-task-5.vercel.app
+
+---
+
+## 🚀 Features
+
+- ✅ **Product Listing** with Grid Layout
+- 🔍 **Search** by product title
+- 🗂️ **Filter** by product category
+- ↕️ **Sort** by price (ascending/descending)
+- 📄 **Pagination**
+- 📦 **Product Details Page** with:
+  - Image gallery
+  - Title, price, description
+  - Category tag
+  - Back to products link
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **API**: [FakeStore API](https://fakestoreapi.com/)
+- **State Management**: React Hooks
+
+---
+
 
 ## Learn More
 
